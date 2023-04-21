@@ -113,7 +113,7 @@ export const About = () => {
       <Case>
         <Title>Education</Title>
         <Box>
-          <TbCertificate size={80} color="#D9D9D9" />
+          <TbCertificate size={72} color="#D9D9D9" />
           <EducationBox>
             <h4>Free Code Capmp</h4>
             <h5>JavaScript</h5>

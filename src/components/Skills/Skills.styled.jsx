@@ -10,7 +10,7 @@ export const Sidebar = styled.aside`
 export const SidebarElFigure = styled.div`
   position: absolute;
   top: 0;
-  left: -280px;
+  left: -240px;
   width: 250px;
   height: 230px;
   margin-right: auto;

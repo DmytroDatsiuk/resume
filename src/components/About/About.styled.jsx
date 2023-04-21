@@ -28,18 +28,18 @@ export const Box = styled.div`
 export const Description = styled.p`
   display: block;
   margin-left: 15px;
-  width: 480px;
+  width: 440px;
 `;
 
 export const Desc = styled.p`
   display: block;
   margin-left: 15px;
-  width: 450px;
+  width: 400px;
 `;
 
 export const EducationBox = styled.div`
   flex-direction: column;
-  margin-left: 10px;
+  margin-left: 20px;
 `;
 
 export const ProjectBox = styled.div`
