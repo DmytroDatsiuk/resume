@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Main = styled.div`
   margin-left: 20px;
 
-  margin-top: 20px;
+  margin-top: 5px;
   color: #1e1e1e;
 `;
 
@@ -15,6 +15,7 @@ export const Title = styled.h3`
 
 export const Summary = styled.div`
   margin-bottom: 30px;
+  margin-top: 10px;
 `;
 
 export const Box = styled.div`

@@ -38,6 +38,7 @@ export const SidebarAddressItem = styled.li`
 
 export const SidebarAddressLink = styled.a`
   color: #fff;
+  font-style: normal;
 
   &:hover {
     color: #a8a3a3;
@@ -45,15 +46,15 @@ export const SidebarAddressLink = styled.a`
 `;
 
 export const SidebarList = styled.ul`
-  /* margin-left: 30px; */
-  /* list-style: disc;
-  color: #fff; */
+  margin-left: 30px;
+  list-style: disc;
+  color: #fff;
 `;
 
 export const SidebarEl = styled.div`
   width: 300px;
   height: 40px;
-  background-color: #fff;
+  background-color: transparent;
   margin-right: 20px;
 
   border-radius: 0 20px 20px 0;

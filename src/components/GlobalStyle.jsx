@@ -45,5 +45,6 @@ img {
 a {
   text-decoration-skip-ink: none;
    text-decoration: none;
+   color: inherit;
 }
 `;

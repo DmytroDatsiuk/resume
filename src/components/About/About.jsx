@@ -20,6 +20,7 @@ import { BsGithub } from 'react-icons/bs';
 export const About = () => {
   return (
     <Main>
+      <h1>Dmytro Datsiuk</h1>
       <Summary>
         <Title>Summary</Title>
         <Box>
@@ -37,7 +38,7 @@ export const About = () => {
         </Box>
       </Summary>
       <div>
-        <Title>Work Expirience</Title>
+        <Title>Work Experience</Title>
         <Box>
           <RiAdminFill size={75} color="#D9D9D9" />
           <ul>
@@ -46,13 +47,16 @@ export const About = () => {
               <p>July 2018 - up to now | Ukraine</p>
               <ul>
                 <li>Armed Forces of Ukraine</li>
+                <li>Personnel management</li>
+                <li>Systems administration</li>
+                <li>Network settings</li>
               </ul>
             </li>
           </ul>
         </Box>
       </div>
       <Case>
-        <Title>Project Expirience</Title>
+        <Title>Project Experience</Title>
         <Box>
           <BsGithub size={70} color="#D9D9D9" />
           <ProjectBox>
@@ -65,9 +69,22 @@ export const About = () => {
           </ProjectBox>
         </Box>
         <Box>
-          <BsGithub size={70} color="#D9D9D9" />
+          <a
+            href="https://github.com/DmytroDatsiuk/goit-react-hw-08-phonebook"
+            target="_blank"
+            rel="noopener norefferer noreferrer"
+          >
+            <BsGithub size={70} color="#D9D9D9" />
+          </a>
           <ProjectBox>
-            <h4>Phonebook</h4>
+            <a
+              href="https://dmytrodatsiuk.github.io/goit-react-hw-08-phonebook/"
+              target="_blank"
+              rel="noopener norefferer noreferrer"
+            >
+              <h4>Phonebook</h4>
+            </a>
+
             <ProjectDesc>
               [React (Hooks, Routers, Redux, Redux Toolkit)]
             </ProjectDesc>
@@ -96,6 +113,14 @@ export const About = () => {
       <Case>
         <Title>Education</Title>
         <Box>
+          <TbCertificate size={80} color="#D9D9D9" />
+          <EducationBox>
+            <h4>Free Code Capmp</h4>
+            <h5>JavaScript</h5>
+            <p>January 2023</p>
+          </EducationBox>
+        </Box>
+        <Box>
           <HiAcademicCap size={80} color="#D9D9D9" />
           <EducationBox>
             <h4>
@@ -105,19 +130,6 @@ export const About = () => {
             <p>Master's degree</p>
             <p>September 2013 - June 2018 | Ukraine</p>
           </EducationBox>
-        </Box>
-      </Case>
-      <Case>
-        <Title>Certificates</Title>
-        <Box>
-          <TbCertificate size={80} color="#D9D9D9" />
-          <ul>
-            <li>
-              <h4>freeCodeCapmp</h4>
-              <h5>JavaScript</h5>
-              <p>January 2023</p>
-            </li>
-          </ul>
         </Box>
       </Case>
     </Main>

@@ -7,15 +7,11 @@ import {
   SidebarImg,
   SidebarInfo,
   SidebarList,
-  Transperent,
 } from './Skills.styled';
 import { MdAddIcCall, MdMarkEmailRead } from 'react-icons/md';
 import { TbHomeHand } from 'react-icons/tb';
 import { BsLinkedin } from 'react-icons/bs';
-import { AiFillHtml5 } from 'react-icons/ai';
-import { FaCss3Alt, FaReact } from 'react-icons/fa';
-import { IoLogoJavascript } from 'react-icons/io';
-import { SiTypescript } from 'react-icons/si';
+import { BsGithub } from 'react-icons/bs';
 
 export const Skills = () => {
   return (
@@ -23,8 +19,6 @@ export const Skills = () => {
       <SidebarElFigure></SidebarElFigure>
       <SidebarImg src={require('./photo.jpg')} alt={'candidat'} />
       <SidebarInfo>
-        <h2>Dmytro Datsiuk</h2>
-
         <div>
           <address>
             <ul>
@@ -63,7 +57,11 @@ export const Skills = () => {
                 </SidebarAddressLink>
               </li>
               <li>
-                <SidebarAddressLink href="https://www.linkedin.com/in/dmytro-datsiuk-283673246/">
+                <SidebarAddressLink
+                  href="https://www.linkedin.com/in/dmytro-datsiuk-283673246/"
+                  target="_blank"
+                  rel="noopener norefferer noreferrer"
+                >
                   <BsLinkedin
                     size={20}
                     style={{
@@ -71,78 +69,48 @@ export const Skills = () => {
                       marginRight: 10,
                     }}
                   />
-                  linkedin profile
+                  LinkedIn
+                </SidebarAddressLink>
+              </li>
+              <li>
+                <SidebarAddressLink href="https://www.linkedin.com/in/dmytro-datsiuk-283673246/">
+                  <BsGithub
+                    size={20}
+                    style={{
+                      color: '#fff',
+                      marginRight: 10,
+                    }}
+                  />
+                  GitHub
                 </SidebarAddressLink>
               </li>
             </ul>
           </address>
           <h3>Hard Skills</h3>
           <SidebarList>
-            <li>
-              <AiFillHtml5
-                size={20}
-                style={{ color: '#fff', marginRight: 10 }}
-              />
-              HTML
-            </li>
-            <li>
-              <FaCss3Alt size={20} style={{ color: '#fff', marginRight: 10 }} />
-              CSS
-            </li>
-            <li>
-              <IoLogoJavascript
-                size={20}
-                style={{ color: '#fff', marginRight: 10 }}
-              />
-              JavaScript
-            </li>
-            <li>
-              <SiTypescript
-                size={20}
-                style={{ color: '#fff', marginRight: 10 }}
-              />
-              TypeScript
-            </li>
-            <li>
-              <FaReact size={20} style={{ color: '#fff', marginRight: 10 }} />
-              React
-            </li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
           </SidebarList>
         </div>
         <div>
           <h3>Soft Skills</h3>
-          <ul>
-            <li>
-              <b>- -</b> <Transperent>...</Transperent>
-              Organization
-            </li>
-            <li>
-              <b>- -</b> <Transperent>...</Transperent>Confidence
-            </li>
-            <li>
-              <b>- -</b> <Transperent>...</Transperent>Single-minded
-            </li>
-            <li>
-              <b>- -</b> <Transperent>...</Transperent>Communication
-            </li>
-            <li>
-              <b>- -</b> <Transperent>...</Transperent>Time Managment
-            </li>
-          </ul>
+          <SidebarList>
+            <li>Organization</li>
+            <li>Confidence</li>
+            <li>Single-minded</li>
+            <li>Communication</li>
+            <li>Time Managment</li>
+          </SidebarList>
         </div>
         <div>
-          <h3>LANGUAGES</h3>
-          <ul>
-            <li>
-              <b>- -</b> <Transperent>...</Transperent>English - advanced
-            </li>
-            <li>
-              <b>- -</b> <Transperent>...</Transperent>Ukranian - based
-            </li>
-            <li>
-              <b>- -</b> <Transperent>...</Transperent>Rassian - crash
-            </li>
-          </ul>
+          <h3>Languages</h3>
+          <SidebarList>
+            <li>English - advanced</li>
+            <li>Ukranian - native</li>
+          </SidebarList>
         </div>
       </SidebarInfo>
       <SidebarEl></SidebarEl>
