@@ -1,16 +1,18 @@
+import { About } from './About/About';
+import { GlobalStyle } from './GlobalStyle';
+import { Flex, Layout } from './Layout';
+import { Skills } from './Skills/Skills';
+// import { TitleBox } from './Header/TitleBox';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Layout>
+      <GlobalStyle />
+      {/* <TitleBox /> */}
+      <Flex>
+        <About />
+        <Skills />
+      </Flex>
+    </Layout>
   );
 };
