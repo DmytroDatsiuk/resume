@@ -9,6 +9,7 @@ import {
   ProjectBox,
   Case,
   ProjectDesc,
+  WorkList,
 } from './About.styled';
 import { HiChatBubbleLeftEllipsis, HiAcademicCap } from 'react-icons/hi2';
 import { RiAdminFill } from 'react-icons/ri';
@@ -37,30 +38,24 @@ export const About = () => {
           </Description>
         </Box>
       </Summary>
-      <div>
-        <Title>Work Experience</Title>
-        <Box>
-          <RiAdminFill size={75} color="#D9D9D9" />
-          <ul>
-            <li>
-              <h4>System administrator</h4>
-              <p>July 2018 - up to now | Ukraine</p>
-              <ul>
-                <li>Armed Forces of Ukraine</li>
-                <li>Personnel management</li>
-                <li>Systems administration</li>
-                <li>Network settings</li>
-              </ul>
-            </li>
-          </ul>
-        </Box>
-      </div>
       <Case>
         <Title>Project Experience</Title>
         <Box>
-          <BsGithub size={70} color="#D9D9D9" />
+          <a
+            href="https://github.com/Yevhenii770/team-it__lions"
+            target="_blank"
+            rel="noopener norefferer noreferrer"
+          >
+            <BsGithub size={70} color="#D9D9D9" />
+          </a>
           <ProjectBox>
-            <h4>IceCream</h4>
+            <a
+              href="https://yevhenii770.github.io/team-it__lions/"
+              target="_blank"
+              rel="noopener norefferer noreferrer"
+            >
+              <h4>Ice Cream</h4>
+            </a>
             <ProjectDesc>[Parcel, SCSS, JS]</ProjectDesc>
             <Desc>
               Ice company website with responsive layout, burger menu, modal
@@ -96,9 +91,21 @@ export const About = () => {
           </ProjectBox>
         </Box>
         <Box>
-          <BsGithub size={70} color="#D9D9D9" />
+          <a
+            href="https://github.com/Malakhow-Alexandr/filmoteka-landing__team-work"
+            target="_blank"
+            rel="noopener norefferer noreferrer"
+          >
+            <BsGithub size={70} color="#D9D9D9" />
+          </a>
           <ProjectBox>
-            <h4>Filmoteka,</h4>
+            <a
+              href="https://malakhow-alexandr.github.io/filmoteka-landing__team-work/"
+              target="_blank"
+              rel="noopener norefferer noreferrer"
+            >
+              <h4>Filmoteka</h4>
+            </a>
             <ProjectDesc>
               [HTML, SASS, JS, Handlebars, REST API, AJAX, Parcel]
             </ProjectDesc>
@@ -110,6 +117,26 @@ export const About = () => {
           </ProjectBox>
         </Box>
       </Case>
+      <div>
+        <Title>Work Experience</Title>
+        <Box>
+          <RiAdminFill size={75} color="#D9D9D9" />
+          <ul>
+            <li>
+              <h4>Armed Forces of Ukraine</h4>
+              <p>2018 - up to now | Ukraine</p>
+              <WorkList>
+                <li>System administrator</li>
+                <li>Personnel management</li>
+                <li>Systems administration</li>
+                <li>Network settings</li>
+              </WorkList>
+              <p>Achievement: Best employee 2020 and 2021</p>
+            </li>
+          </ul>
+        </Box>
+      </div>
+
       <Case>
         <Title>Education</Title>
         <Box>

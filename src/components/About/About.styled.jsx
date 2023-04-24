@@ -54,3 +54,7 @@ export const ProjectDesc = styled.p`
   /* font-size: small; */
   color: gray;
 `;
+
+export const WorkList = styled.ul`
+  list-style-type: disc;
+`;

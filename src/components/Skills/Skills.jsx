@@ -73,7 +73,10 @@ export const Skills = () => {
                 </SidebarAddressLink>
               </li>
               <li>
-                <SidebarAddressLink href="https://www.linkedin.com/in/dmytro-datsiuk-283673246/">
+                <SidebarAddressLink
+                  href="https://github.com/DmytroDatsiuk"
+                  target="_blank"
+                >
                   <BsGithub
                     size={20}
                     style={{
