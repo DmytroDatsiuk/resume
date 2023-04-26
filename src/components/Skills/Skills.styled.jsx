@@ -12,12 +12,12 @@ export const SidebarElFigure = styled.div`
   top: 0;
   left: -240px;
   width: 250px;
-  height: 230px;
+  height: 33px;
   margin-right: auto;
   margin-left: auto;
   /* margin-bottom: 80px; */
 
-  border-radius: 0 0 50% 50%;
+  /* border-radius: 0 0 50% 50%; */
   background-color: #ffffffa6;
 `;
 export const SidebarImg = styled.img`

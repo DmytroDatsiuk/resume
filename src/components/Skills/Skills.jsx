@@ -96,6 +96,8 @@ export const Skills = () => {
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>React</li>
+            <li>React Native</li>
+            <li>NodeJS</li>
           </SidebarList>
         </div>
         <div>
