@@ -17,7 +17,7 @@ export const Skills = () => {
   return (
     <Sidebar>
       <SidebarElFigure></SidebarElFigure>
-      <SidebarImg src={require('./photo.jpg')} alt={'candidat'} />
+      <SidebarImg src={require('images/IMG_8111.PNG')} alt={'candidat'} />
       <SidebarInfo>
         <div>
           <address>
@@ -53,7 +53,7 @@ export const Skills = () => {
                     size={20}
                     style={{ color: '#fff', marginRight: 10 }}
                   />
-                  м. Київ, пр-т Лесі Українки, 26
+                  Ukraine - Odesa
                 </SidebarAddressLink>
               </li>
               <li>

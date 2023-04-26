@@ -15,19 +15,22 @@ export const SidebarElFigure = styled.div`
   height: 230px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 20px;
+  /* margin-bottom: 80px; */
 
   border-radius: 0 0 50% 50%;
-  background-color: #fff;
+  background-color: #ffffffa6;
 `;
 export const SidebarImg = styled.img`
   position: relative;
-  left: 10px;
-  width: 300px;
-  border-radius: 50%;
+  top: 30px;
+  left: 25px;
+  width: 270px;
+  border: 3px solid #ffffffa6;
+  border-radius: 5px;
 `;
 
 export const SidebarInfo = styled.div`
+  margin-top: 55px;
   margin-left: 30px;
   margin-bottom: 8px;
 `;

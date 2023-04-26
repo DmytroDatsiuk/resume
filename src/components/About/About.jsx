@@ -54,9 +54,11 @@ export const About = () => {
               target="_blank"
               rel="noopener norefferer noreferrer"
             >
-              <h4>Ice Cream</h4>
+              <h4>
+                Ice Cream <span style={{ fontWeight: '100' }}>[link]</span>
+              </h4>
             </a>
-            <ProjectDesc>[Parcel, SCSS, JS]</ProjectDesc>
+            <ProjectDesc>[HTML, CSS, Parcel, SCSS, JS]</ProjectDesc>
             <Desc>
               Ice company website with responsive layout, burger menu, modal
               window and attractive design. Role: Developer
@@ -77,7 +79,9 @@ export const About = () => {
               target="_blank"
               rel="noopener norefferer noreferrer"
             >
-              <h4>Phonebook</h4>
+              <h4>
+                Phonebook <span style={{ fontWeight: '100' }}>[link]</span>
+              </h4>
             </a>
 
             <ProjectDesc>
@@ -104,7 +108,9 @@ export const About = () => {
               target="_blank"
               rel="noopener norefferer noreferrer"
             >
-              <h4>Filmoteka</h4>
+              <h4>
+                Filmoteka <span style={{ fontWeight: '100' }}>[link]</span>
+              </h4>
             </a>
             <ProjectDesc>
               [HTML, SASS, JS, Handlebars, REST API, AJAX, Parcel]
