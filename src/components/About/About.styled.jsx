@@ -28,13 +28,13 @@ export const Box = styled.div`
 export const Description = styled.p`
   display: block;
   margin-left: 15px;
-  width: 420px;
+  width: 380px;
 `;
 
 export const Desc = styled.p`
   display: block;
   margin-left: 15px;
-  width: 400px;
+  width: 360px;
 `;
 
 export const EducationBox = styled.div`

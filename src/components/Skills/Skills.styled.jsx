@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Sidebar = styled.aside`
+  position: relative;
   display: block;
   background-color: #545454;
   color: #f8f2f2;
@@ -10,7 +11,7 @@ export const Sidebar = styled.aside`
 export const SidebarElFigure = styled.div`
   position: absolute;
   top: 0;
-  left: -198px;
+  left: 28px;
   width: 250px;
   height: 33px;
   margin-right: auto;
@@ -23,7 +24,7 @@ export const SidebarElFigure = styled.div`
 export const SidebarImg = styled.img`
   position: relative;
   top: 30px;
-  left: 25px;
+  left: 18px;
   width: 270px;
   height: 345.16px;
   border: 3px solid #ffffffa6;
@@ -33,7 +34,7 @@ export const SidebarImg = styled.img`
 export const SidebarInfo = styled.div`
   margin-top: 55px;
   margin-left: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 140px;
 `;
 
 export const SidebarAddressItem = styled.li`
@@ -58,8 +59,10 @@ export const SidebarList = styled.ul`
 export const SidebarEl = styled.div`
   width: 300px;
   height: 40px;
-  background-color: #ffffffa6;
-  margin-right: 20px;
+  /* background-color: #ffffffa6; */
+  background-color: transparent;
+
+  margin-right: 5px;
   border-radius: 0 20px 20px 0;
 
   &:not(:last-child) {
