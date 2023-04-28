@@ -21,6 +21,7 @@ export const Skills = () => {
       <SidebarInfo>
         <div>
           <address>
+            <h3 style={{ fontStyle: 'normal' }}>Contacts</h3>
             <ul>
               <SidebarAddressItem>
                 <SidebarAddressLink href="mailto:info@devstudio.com">

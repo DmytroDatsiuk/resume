@@ -10,6 +10,7 @@ import {
   Case,
   ProjectDesc,
   WorkList,
+  BoxTitle,
 } from './About.styled';
 import { HiChatBubbleLeftEllipsis, HiAcademicCap } from 'react-icons/hi2';
 import { RiAdminFill } from 'react-icons/ri';
@@ -23,9 +24,11 @@ export const About = () => {
     <Main>
       <h1>Dmytro Datsiuk</h1>
       <Summary>
-        <Title>Summary</Title>
+        <BoxTitle>
+          <HiChatBubbleLeftEllipsis size={25} color="#524e4e" />
+          <h3>Summary</h3>
+        </BoxTitle>
         <Box>
-          <HiChatBubbleLeftEllipsis size={50} color="#D9D9D9" />
           <Description>
             I am an experienced and passionate Front-End developer with
             knowledge of HTML, CSS, JavaScript and React. I have a proven track
@@ -39,15 +42,11 @@ export const About = () => {
         </Box>
       </Summary>
       <Case>
-        <Title>Project Experience</Title>
+        <BoxTitle>
+          <BsGithub size={30} color="#524e4e" />
+          <h3>Project Experience</h3>
+        </BoxTitle>
         <Box>
-          <a
-            href="https://github.com/Yevhenii770/team-it__lions"
-            target="_blank"
-            rel="noopener norefferer noreferrer"
-          >
-            <BsGithub size={50} color="#D9D9D9" />
-          </a>
           <ProjectBox>
             <a
               href="https://yevhenii770.github.io/team-it__lions/"
@@ -55,7 +54,17 @@ export const About = () => {
               rel="noopener norefferer noreferrer"
             >
               <h4>
-                Ice Cream <span style={{ fontWeight: '100' }}>[link]</span>
+                Ice Cream,{' '}
+                <span style={{ fontWeight: '100' }}>
+                  {' '}
+                  <a
+                    href="https://github.com/Yevhenii770/team-it__lions"
+                    target="_blank"
+                    rel="noopener norefferer noreferrer"
+                  >
+                    [link]
+                  </a>
+                </span>
               </h4>
             </a>
             <ProjectDesc>[HTML, CSS, Parcel, SCSS, JS]</ProjectDesc>
@@ -66,13 +75,6 @@ export const About = () => {
           </ProjectBox>
         </Box>
         <Box>
-          <a
-            href="https://github.com/DmytroDatsiuk/goit-react-hw-08-phonebook"
-            target="_blank"
-            rel="noopener norefferer noreferrer"
-          >
-            <BsGithub size={50} color="#D9D9D9" />
-          </a>
           <ProjectBox>
             <a
               href="https://dmytrodatsiuk.github.io/goit-react-hw-08-phonebook/"
@@ -80,7 +82,16 @@ export const About = () => {
               rel="noopener norefferer noreferrer"
             >
               <h4>
-                Phonebook <span style={{ fontWeight: '100' }}>[link]</span>
+                Phonebook,{' '}
+                <span style={{ fontWeight: '100' }}>
+                  <a
+                    href="https://github.com/DmytroDatsiuk/goit-react-hw-08-phonebook"
+                    target="_blank"
+                    rel="noopener norefferer noreferrer"
+                  >
+                    [link]
+                  </a>
+                </span>
               </h4>
             </a>
 
@@ -95,13 +106,6 @@ export const About = () => {
           </ProjectBox>
         </Box>
         <Box>
-          <a
-            href="https://github.com/Malakhow-Alexandr/filmoteka-landing__team-work"
-            target="_blank"
-            rel="noopener norefferer noreferrer"
-          >
-            <BsGithub size={50} color="#D9D9D9" />
-          </a>
           <ProjectBox>
             <a
               href="https://malakhow-alexandr.github.io/filmoteka-landing__team-work/"
@@ -109,7 +113,16 @@ export const About = () => {
               rel="noopener norefferer noreferrer"
             >
               <h4>
-                Filmoteka <span style={{ fontWeight: '100' }}>[link]</span>
+                Filmoteka,{' '}
+                <span style={{ fontWeight: '100' }}>
+                  <a
+                    href="https://github.com/Malakhow-Alexandr/filmoteka-landing__team-work"
+                    target="_blank"
+                    rel="noopener norefferer noreferrer"
+                  >
+                    [link]
+                  </a>
+                </span>
               </h4>
             </a>
             <ProjectDesc>

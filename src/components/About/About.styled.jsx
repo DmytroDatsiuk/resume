@@ -8,6 +8,19 @@ export const Main = styled.div`
 `;
 
 export const Title = styled.h3`
+  /* display: flex;
+  gap: 5px;
+  align-items: baseline; */
+  background-color: #d9d9d9;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+`;
+
+export const BoxTitle = styled.div`
+  display: flex;
+  gap: 5px;
+
+  align-items: flex-start;
   background-color: #d9d9d9;
   padding: 10px;
   border-radius: 4px 0 0 4px;
@@ -27,14 +40,14 @@ export const Box = styled.div`
 
 export const Description = styled.p`
   display: block;
-  margin-left: 15px;
-  width: 380px;
+  margin-left: 5px;
+  width: 440px;
 `;
 
 export const Desc = styled.p`
   display: block;
-  margin-left: 15px;
-  width: 360px;
+  margin-left: 5px;
+  width: 430px;
 `;
 
 export const EducationBox = styled.div`
@@ -43,7 +56,7 @@ export const EducationBox = styled.div`
 `;
 
 export const ProjectBox = styled.div`
-  margin-left: 20px;
+  margin-left: 5px;
 `;
 
 export const Case = styled.div`
