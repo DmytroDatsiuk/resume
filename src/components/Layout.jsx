@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Layout = styled.main`
   position: absolute;
   left: 50%;
-  transform: translate(-27%);
+  transform: translate(-35%);
   width: 600px;
   /* margin-right: auto; */
   /* margin-left: auto; */
