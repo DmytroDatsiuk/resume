@@ -28,7 +28,7 @@ export const Box = styled.div`
 export const Description = styled.p`
   display: block;
   margin-left: 15px;
-  width: 440px;
+  width: 420px;
 `;
 
 export const Desc = styled.p`

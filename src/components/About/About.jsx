@@ -25,7 +25,7 @@ export const About = () => {
       <Summary>
         <Title>Summary</Title>
         <Box>
-          <HiChatBubbleLeftEllipsis size={70} color="#D9D9D9" />
+          <HiChatBubbleLeftEllipsis size={50} color="#D9D9D9" />
           <Description>
             I am an experienced and passionate Front-End developer with
             knowledge of HTML, CSS, JavaScript and React. I have a proven track
@@ -46,7 +46,7 @@ export const About = () => {
             target="_blank"
             rel="noopener norefferer noreferrer"
           >
-            <BsGithub size={70} color="#D9D9D9" />
+            <BsGithub size={50} color="#D9D9D9" />
           </a>
           <ProjectBox>
             <a
@@ -71,7 +71,7 @@ export const About = () => {
             target="_blank"
             rel="noopener norefferer noreferrer"
           >
-            <BsGithub size={70} color="#D9D9D9" />
+            <BsGithub size={50} color="#D9D9D9" />
           </a>
           <ProjectBox>
             <a
@@ -100,7 +100,7 @@ export const About = () => {
             target="_blank"
             rel="noopener norefferer noreferrer"
           >
-            <BsGithub size={70} color="#D9D9D9" />
+            <BsGithub size={50} color="#D9D9D9" />
           </a>
           <ProjectBox>
             <a
@@ -126,7 +126,7 @@ export const About = () => {
       <div>
         <Title>Work Experience</Title>
         <Box>
-          <RiAdminFill size={75} color="#D9D9D9" />
+          <RiAdminFill size={55} color="#D9D9D9" />
           <ul>
             <li>
               <h4>Armed Forces of Ukraine</h4>
@@ -146,7 +146,7 @@ export const About = () => {
       <Case>
         <Title>Education</Title>
         <Box>
-          <TbCertificate size={72} color="#D9D9D9" />
+          <TbCertificate size={52} color="#D9D9D9" />
           <EducationBox>
             <h4>Free Code Capmp</h4>
             <h5>JavaScript</h5>
@@ -154,7 +154,7 @@ export const About = () => {
           </EducationBox>
         </Box>
         <Box>
-          <HiAcademicCap size={80} color="#D9D9D9" />
+          <HiAcademicCap size={60} color="#D9D9D9" />
           <EducationBox>
             <h4>
               Military Institute of Telecommunications and Informatization
