@@ -25,6 +25,7 @@ export const SidebarImg = styled.img`
   top: 30px;
   left: 25px;
   width: 270px;
+  height: 345.16px;
   border: 3px solid #ffffffa6;
   border-radius: 5px;
 `;
@@ -32,7 +33,7 @@ export const SidebarImg = styled.img`
 export const SidebarInfo = styled.div`
   margin-top: 55px;
   margin-left: 30px;
-  margin-bottom: 8px;
+  margin-bottom: 100px;
 `;
 
 export const SidebarAddressItem = styled.li`
@@ -57,9 +58,8 @@ export const SidebarList = styled.ul`
 export const SidebarEl = styled.div`
   width: 300px;
   height: 40px;
-  background-color: transparent;
+  background-color: #ffffffa6;
   margin-right: 20px;
-
   border-radius: 0 20px 20px 0;
 
   &:not(:last-child) {

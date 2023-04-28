@@ -17,7 +17,7 @@ export const Skills = () => {
   return (
     <Sidebar>
       <SidebarElFigure></SidebarElFigure>
-      <SidebarImg src={require('images/IMG_8111.PNG')} alt={'candidat'} />
+      <SidebarImg src={require('images/IMG_8111.jpg')} alt={'candidat'} />
       <SidebarInfo>
         <div>
           <address>
