@@ -34,7 +34,7 @@ export const SidebarImg = styled.img`
 export const SidebarInfo = styled.div`
   margin-top: 55px;
   margin-left: 10px;
-  margin-bottom: 140px;
+  margin-bottom: 0px;
 `;
 
 export const SidebarAddressItem = styled.li`
