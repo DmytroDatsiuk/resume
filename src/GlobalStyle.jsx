@@ -12,8 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
   color: #000;
-  /* width: 800px; */
-  height: 1350px;
+  width: 777px;
+  /* height: 1350px; */
+  margin-right: auto;
+  margin-left: auto;
 }
 
 code {
