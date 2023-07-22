@@ -114,7 +114,7 @@ export const Skills = () => {
         <div>
           <h3>Languages</h3>
           <SidebarList>
-            <li>English - advanced</li>
+            <li>English - elementary</li>
             <li>Ukranian - native</li>
           </SidebarList>
         </div>
